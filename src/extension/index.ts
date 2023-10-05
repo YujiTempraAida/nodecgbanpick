@@ -1,7 +1,6 @@
 import {NodeCG} from "./nodecg";
-import {scoreboard} from "./scoreboard";
+import {stages} from "./stages";
 
 export default (nodecg: NodeCG) => {
-	scoreboard(nodecg);
-
+	stages(nodecg);
 };

@@ -1,5 +1,5 @@
 {
-	"name": "nodecgbundletemplate",
+	"name": "nodecgbanpick",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -41,6 +41,7 @@
 		"moment": "^2.29.4",
 		"obs-websocket-js": "^5.0.2",
 		"tslib": "^2.5.0",
+		"use-nodecg": "^0.4.0",
 		"uuid": "^9.0.0",
 		"ws": "^8.13.0"
 	},
@@ -92,32 +93,30 @@
 		"compatibleRange": "^1.0.0 || ^2.0.0",
 		"dashboardPanels": [
 			{
-				"name": "omnTelop",
-				"title": "omnTelop",
-				"file": "omnTelop.html",
+				"name": "banpick",
+				"title": "Banpick",
+				"file": "banpick.html",
 				"headerColor": "#00BEBE",
-				"width": 3,
-				"workspace": "0-sample"
-			},
-			{
-				"name": "scoreboard",
-				"title": "scoreboard",
-				"file": "scoreboard.html",
-				"headerColor": "#00BEBE",
-				"width": 3,
-				"workspace": "0-sample"
+				"workspace": "banpick"
 			}
 		],
 		"graphics": [
 			{
-				"file": "omnTelop.html",
+				"file": "banpick.html",
 				"width": 1920,
 				"height": 1080
-			},
+			}
+		],
+		"assetCategories": [
 			{
-				"file": "scoreboard.html",
-				"width": 1920,
-				"height": 1080
+				"name": "stageImages",
+				"title": "StageImages",
+				"allowedTypes": [
+					"jpg",
+					"jpeg",
+					"gif",
+					"png"
+				]
 			}
 		]
 	}

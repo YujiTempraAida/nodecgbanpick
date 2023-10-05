@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"id": {"type": "number"},
+		"name": {"type": "string"},
+		"isStarter": {"type": "boolean"},
+		"isChosen": {"type": "boolean"},
+		"chosenOrder": {"type": "number"},
+		"status": {"type": "string"},
+		"statusimgsrc": {"type": "string"},
+		"imgsrc": {"type": "string"}
+	},
+	"required": ["id", "name", "isStarter", "isChosen", "imgsrc"]
+}
